@@ -15,6 +15,7 @@
     Создайте экземпляры каждого прибора.
     Выведите в консоль и посмотрите на результаты работы, можете гордиться собой :)
  */
+
 Appliance.prototype.getPower = function (amperage) {
     console.log(`${this.name}'s power consumption is ${amperage * this.volt}W`);
 };
